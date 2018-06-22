@@ -1,0 +1,45 @@
+h2{
+	
+	color: black;
+	text-align: center;
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 280px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+.sidenav a{
+	padding: 10px 30px 10px 20px;
+	display: block;
+	text-decoration: none;
+	color:  #4d4d4d;
+}
+.mainclass{
+	margin-left: 23%;
+}
+.mainclass h2{
+	text-align: left;
+	margin-left: 3%;
+	display: inline-block;
+}
+p{
+	font-size: 14px;
+	color: #4d4d4d;
+}
+.textbox{
+	
+    width: 90%;
+    padding: 20px 50px 20px 10px ;
+    border: 5px #f2f2f2;
+    margin: 10px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+
+
+}
